@@ -8,7 +8,7 @@ from ejercicios.operaciones import es_par
 class TestClass:
 
     # Tests para comprobar que la función es_par funciona correctamente
-    def test_es_par():
+    def test_es_par(self):
         assert es_par(2), "2 debería ser par"
         assert not es_par(3), "3 no debería ser par"
         assert es_par(0), "0 debería ser par"
